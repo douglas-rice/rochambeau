@@ -35,8 +35,8 @@ loop do
   # compare
   # Tie game
   if player_choice == computer_choice
-    puts "Tie game."
-
+    puts "Tie game. Let's go again..."
+    next
   # player wins
   elsif (player_choice == 'p' && computer_choice == 'r') ||
         (player_choice == 'r' && computer_choice == 's') ||
